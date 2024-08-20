@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.venv
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# misc
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# Temporariy, swap & ignored files
+/log*.txt
+/config-local.*
+/*.session
+*UNUSED
+*~
+.*.sw?
+*.tmp
+*.zip
+*.tgz
+*.log
+
